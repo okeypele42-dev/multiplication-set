@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Multiplication Table</h2>
+
+        <div class="controls">
+            <label for="gridSize">Table Size:</label>
+            <input type="number" id="gridSize" value="10" min="1" max="25">
+            <button onclick="generateTable()">Generate</button>
+        </div>
+
+        <div class="table-responsive">
+            <table id="multiplicationTable"></table>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
